@@ -1,0 +1,23 @@
+.userHeader {
+  display: flex;
+  margin-bottom: 2.8rem;
+  &_imgWrapper {
+    margin-right: 1.4rem;
+    max-width: 7rem;
+    &_image {
+      max-width: 100%;
+    }
+  }
+  &_userBio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &_login {
+      font-style: italic;
+      margin-bottom: 0.4rem;
+    }
+    &_name {
+      margin-bottom: 0.4rem;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.searchContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1.4rem;
+  &_input {
+    border: 1px solid #d8d8d8;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    border-radius: 0.3rem;
+  }
+  &_input::placeholder {
+    color: #aeadad;
+    font-weight: 500;
+  }
+  &_button {
+    background-color: #f9f9f9;
+    border: 1px solid #d8d8d8;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    color: #373433;
+  }
+}

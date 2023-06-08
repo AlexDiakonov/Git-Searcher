@@ -1,0 +1,9 @@
+.repoList {
+  &_titleWrapper {
+    border-bottom: 3px solid #77777754;
+  }
+  &_listItems {
+    overflow-y: auto;
+    max-height: 23.5rem;
+  }
+}

@@ -1,0 +1,14 @@
+.repoItem {
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #77777773;
+  &_info {
+    display: flex;
+    align-items: center;
+    &_icon {
+      margin-right: 0.3rem;
+    }
+  }
+}
