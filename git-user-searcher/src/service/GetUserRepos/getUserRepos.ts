@@ -1,6 +1,6 @@
 import { UserRepository } from "./userRepos.dto";
 
-const API_KEY = "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"
+const API_KEY = process.env.REACT_APP_TOKEN_KEY
 
 export const getUserRepositories = (userName: string): Promise<UserRepository[]> => {
   return fetch(`https://api.github.com/users/${userName}/repos`, {

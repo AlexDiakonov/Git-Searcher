@@ -1,6 +1,6 @@
 import { UserDataInterface } from "./getUser.dto";
 
-const API_KEY = "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"
+const API_KEY = process.env.REACT_APP_TOKEN_KEY
 
 export const getUserData = (userName: string): Promise<UserDataInterface> => {
     return fetch(`https://api.github.com/users/${userName}`, {
