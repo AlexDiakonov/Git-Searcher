@@ -10,11 +10,15 @@ To get started with Git User Fetcher, follow these steps:
 
 # Clone the repository to your local machine:
 
-git clone https://github.com/Workfully-github/frontend-test.git
+git clone https://github.com/AlexDiakonov/Git-Searcher.git
 
 # Navigate to the project directory:
 
 cd git-user-fetcher
+
+# Create your local .env file with your REACT_APP_TOKEN_KEY
+
+REACT_APP_TOKEN_KEY=`<your token goes here>`
 
 # Install the project dependencies using npm or yarn:
 
